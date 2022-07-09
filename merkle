@@ -1,5 +1,3 @@
-
-
 //节点结构体定义
 type MerkleNode struct {
    Left  *MerkleNode
