@@ -19,7 +19,7 @@ class Merkel:
 
     def merkel(self):
         lst = []
-        LR=dict()#字典，标记左右,0左1右
+        LR=dict() #左叶子节点位0，右叶子节点为1
         h=0
         if len(self.l)==0:
             lst=sha256().hexdigest()
